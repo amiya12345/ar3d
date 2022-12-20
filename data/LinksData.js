@@ -13,14 +13,14 @@ const webLinks = [
         url: 'https://instagram.com/realvjy',
         type: 'social',
         icon: '/insta.svg',
-        on: true
+        on: false
     },
     {
         title: 'Dribbble',
         url: 'https://dribbble.com/realvjy',
         type: 'social',
         icon: '/dribbble.svg',
-        on: false
+        on: true
     },
     {
         title: 'Medium',
@@ -114,6 +114,7 @@ const webLinks = [
         icon: '/use.png',
         on: true
     },
+    
     {
         title: 'Deploy on Vercel',
         url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
