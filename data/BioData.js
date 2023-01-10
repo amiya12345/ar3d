@@ -1,14 +1,14 @@
 // date: 1 Aug, 2022
 const bioData = [
     {
-        name: 'ar3d',
+        name: 'Amiya',
         username: 'ar3d.vercel.app',
         url: 'https://ar3d.vercel.app',
         titleImg: false,
         avatar: '/avatar.png',
-        nftAvatar: false,
-        description: '3D artist. ',
-        subdesc: '',
+        nftAvatar: true,
+        description: '3D Generalist ',
+        subdesc: ' ✦ NFT Creator ✦ Currently learning about Design,Development and Metaverse',
         newProductUrl: 'https://3dicons.co',
         newProduct: true,
         author: 'realvjy',

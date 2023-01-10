@@ -3,7 +3,7 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        url: 'https://twitter.com/amiya_ars',
         type: 'social',
         icon: '/twitter.svg',
         on: true
@@ -16,8 +16,22 @@ const webLinks = [
         on: false
     },
     {
+        title: 'Behance',
+        url: 'https://www.behance.net/amiyarsethi1',
+        type: 'social',
+        icon: '/behance.svg',
+        on: true
+    },
+    {
+        title: 'Github',
+        url: 'https://github.com/amiya12345',
+        type: 'social',
+        icon: '/github.svg',
+        on: true
+    },
+    {
         title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
+        url: 'https://dribbble.com/ard_design/collections',
         type: 'social',
         icon: '/dribbble.svg',
         on: true
@@ -29,13 +43,7 @@ const webLinks = [
         icon: '/medium.svg',
         on: false
     },
-    {
-        title: 'Github',
-        url: 'https://github.com/realvjy',
-        type: 'social',
-        icon: '/github.svg',
-        on: true
-    },
+
     {
         title: 'Youtube',
         url: 'https://youtube.com/realvjy',
@@ -48,28 +56,22 @@ const webLinks = [
         url: 'https://figma.com/@realvjy',
         type: 'social',
         icon: '/figma.svg',
-        on: true
-    },
-    {
-        title: 'Behance',
-        url: 'https://behance.net/realvjy',
-        type: 'social',
-        icon: '/behance.svg',
         on: false
     },
+ 
     {
         title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
+        url: 'linkedin.com/in/amiya-ranjan-sethi-618711165',
         type: 'social',
         icon: '/linkedin.svg',
-        on: false
+        on: true
     },
     {
         title: 'Mastodon',
         url: 'https://mastodon.online/@realvjy',
         type: 'social',
         icon: '/mastodon.svg',
-        on: true
+        on: false
     },
     {
         title: 'Hive Social',
@@ -86,33 +88,34 @@ const webLinks = [
         on: false
     },
     {
-        title: 'foundation',
-        url: 'https://vjy.me',
+        title: 'Wazirx',
+        url: 'https://nft.wazirx.org/amiya_fury',
+        type: 'nft',
+        icon: '/wazirx.svg',
+        on: true
+    },
+    {
+        title: 'Foundation',
+        url: 'https://foundation.app/@amiya_ars',
         type: 'nft',
         icon: '/foundation.svg',
-        on: false
+        on: true
     },
     {
-        title: 'opensea',
-        url: 'https://vjy.me',
+        title: 'Opensea',
+        url: 'https://opensea.io/ard_generato',
         type: 'nft',
         icon: '/opensea.svg',
-        on: false
+        on: true
     },
-    {
-        title: 'new collection',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
+   
     // Install section
     {
         title: 'Use this template',
         url: 'https://github.com/realvjy/nxt-lnk/generate',
         type: 'install',
         icon: '/use.png',
-        on: true
+        on: false
     },
     
     {
@@ -120,18 +123,18 @@ const webLinks = [
         url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
         type: 'install',
         icon: '/vercel.svg',
-        on: true
+        on: false
     },
     {
         title: 'Documentation',
         url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
         type: 'install',
         icon: '/doc.png',
-        on: true
+        on: false
     },
     {
         title: 'Github',
-        url: 'https://github.com/realvjy/nxt-lnk',
+        url: 'https://github.com/amiya12345/ar3d',
         type: 'install',
         icon: '/github-fill.svg',
         on: true
@@ -142,7 +145,7 @@ const webLinks = [
         url: 'https://www.buymeacoffee.com/realvjy',
         type: 'other',
         icon: '/bmc.png',
-        on: true
+        on: false
     },
 
     {
@@ -150,14 +153,14 @@ const webLinks = [
         url: 'https://vjy.me/lnk',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 
     {
-        title: 'maker website',
-        url: 'https://vjy.me',
+        title: 'Portfolio website',
+        url: 'https://ar3d.netlify.app',
         type: 'other',
-        icon: '/vjy.png',
+        icon: '/web.svg',
         on: true
     },
 ];

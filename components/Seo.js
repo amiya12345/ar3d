@@ -25,11 +25,11 @@ export default function Seo({ page }) {
                             alt: `${title}`,
                         },
                     ],
-                    site_name: 'vjy.me',
+                    site_name: 'ar3d.netlify.app',
                 }}
                 twitter={{
-                    handle: '@realvjy',
-                    site: 'vjy.me',
+                    handle: '@amiya_ars',
+                    site: 'ar3d.netlify.app',
                     cardType: 'summary_large_image',
                 }}
                 additionalMetaTags={[{

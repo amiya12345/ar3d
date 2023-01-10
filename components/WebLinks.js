@@ -118,23 +118,7 @@ const Links = () => {
             </LinkSection>
             {/* Social Icon */}
 
-            {/* Install Section */}
-            <LinkSection>
-              <h3>{install[0].type}</h3>
-              {
-                install.map((i) => {
-                  return (
-                    <Link href={i.url} passHref key={i.title}>
-                      <LinkBox>
-                        <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
-                      </LinkBox>
-                    </Link>
-                  )
-                })
-              }
-            </LinkSection>
-            {/* End Install Section */}
-
+       
             {/* NFT Section */}
             {
               nfts.length > 0 ?
@@ -143,7 +127,7 @@ const Links = () => {
                   {
                     nfts.map((i) => {
                       return (
-                        <Link href={i.url} passHref key={i.title}>
+                        <Link href={i.url}  passHref key={i.title}>
                           <LinkBox>
                             <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
                           </LinkBox>
@@ -161,7 +145,7 @@ const Links = () => {
               <h3>{others[0].type}</h3>
               {/* BioData.js > newProduct == true */}
               {/* New Section will render once newProduct == true */}
-              {(newProduct) ? <NewSection>
+              {(newProduct == false) ? <NewSection>
                 <Link href={newProductUrl} passHref >
                   <img
                     src={'/newproduct.png'}
@@ -174,9 +158,9 @@ const Links = () => {
               {
                 others.map((i) => {
                   return (
-                    <Link href={i.url} passHref key={i.title}>
+                    <Link href={i.url}  passHref key={i.title}>
                       <LinkBox>
-                        <LinkTitle><img src={i.icon} /> {i.title}</LinkTitle> <NewUp />
+                        <LinkTitle target='_blank'><img src={i.icon} /> {i.title}</LinkTitle> <NewUp />
                       </LinkBox>
                     </Link>
                   )
@@ -184,6 +168,23 @@ const Links = () => {
               }
             </LinkSection>
             {/* End Other Section */}
+                 {/* Install Section */}
+                 <LinkSection>
+              <h3>{install[0].type}</h3>
+              {
+                install.map((i) => {
+                  return (
+                    <Link href={i.url} passHref key={i.title}>
+                      <LinkBox>
+                        <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                      </LinkBox>
+                    </Link>
+                  )
+                })
+              }
+            </LinkSection>
+            {/* End Install Section */}
+
 
           </WebLinkWrap>
           {/* End Weblinks */}
