@@ -61,7 +61,7 @@ const webLinks = [
  
     {
         title: 'Linkedin',
-        url: 'linkedin.com/in/amiya-ranjan-sethi-618711165',
+        url: 'https://www.linkedin.com/in/amiya-ranjan-sethi-618711165',
         type: 'social',
         icon: '/linkedin.svg',
         on: true
