@@ -10,10 +10,10 @@ const webLinks = [
     },
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://www.instagram.com/ar._.3d/',
         type: 'social',
         icon: '/insta.svg',
-        on: false
+        on: true
     },
     {
         title: 'Behance',
