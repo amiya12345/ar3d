@@ -11,9 +11,9 @@ const bioData = [
         subdesc: ' ✦ NFT Creator ✦ Currently learning about Design,Development and Metaverse',
         newProductUrl: 'https://3dicons.co',
         newProduct: true,
-        author: 'realvjy',
+        author: '',
         authorURL: 'https://twitter.com/realvjy',
-        footerText: 'made by'
+        footerText: ''
     },
 ];
 
